@@ -1,0 +1,10 @@
+{
+  "api_base": "http://127.0.0.1:8090",
+  "server_key": "CHANGE_ME_TO_THE_SAME_SECRET_AS_BIND_SERVER_KEY",
+  "key_url": "https://your-site.example/game-key",
+  "account_name": "网站",
+  "freeze": true,
+  "fail_open": false,
+  "release_gamemode": "SURVIVAL",
+  "verify_spawn": ""
+}

@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="AGPL-3.0-or-later"
+showAsResourcePack=false
+
+[[mods]]
+modId="strawberry_bind"
+version="1.0.0"
+displayName="Strawberry Bind"
+description='''Binds Minecraft players to Strawberry accounts and delivers paid shop items.'''
+authors="Strawberry Team"
+
+[[dependencies.strawberry_bind]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.228,)"
+ordering="NONE"
+side="SERVER"
+
+[[dependencies.strawberry_bind]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="SERVER"

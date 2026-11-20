@@ -1,0 +1,11 @@
+services:
+  bind-api:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8090:8090"
+    environment:
+      BIND_SERVER_KEY: "CHANGE_ME_TO_A_LONG_RANDOM_SECRET"
+      BIND_DB_PATH: /data/bind.db
+    volumes:
+      - ./data:/data
